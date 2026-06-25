@@ -99,6 +99,12 @@ height: 50px;
 /* header */
 
 /* main */
+main img{
+  width: 300px;
+  background: rgb(247, 247, 247);
+  padding: 30px;
+  border-radius: 20px;  
+}
 /* camperas */
 .tablaboto{
   margin-top: 20px;
@@ -120,5 +126,11 @@ transition: 0.4s;
 button :hover{
   transform: scale(1.1);
 }
+.lol{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 
 /* footer */
