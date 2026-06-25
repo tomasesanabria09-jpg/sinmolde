@@ -94,3 +94,31 @@ footer{
 footer img{
 height: 50px;
 }
+
+
+/* header */
+
+/* main */
+/* camperas */
+.tablaboto{
+  margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+}
+table td{
+padding: 8px;
+text-align: center;
+border: solid 2px;
+}
+button{
+display: flex;
+background-color: rgb(0, 0, 0);
+color: #f5f5f5;
+transition: 0.4s;
+}
+button :hover{
+  transform: scale(1.1);
+}
+
+/* footer */
