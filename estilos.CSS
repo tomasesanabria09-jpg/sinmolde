@@ -21,6 +21,7 @@ header {
 /* LOGO */
 .logo img {
   width: 140px;
+  box-shadow: 30px 9px 44px -3px rgba(0,0,0,6.1);
 }
 
 /* NAV */
