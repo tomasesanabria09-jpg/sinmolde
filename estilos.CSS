@@ -139,61 +139,56 @@ button :hover {
 
 /*heeder del formulario*/
 .cabeza {
-  background: black;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  background: black; /*color del encabezado*/
+  color: white;/*color de la letra*/
+  text-align: center;/*alinea el texto*/
+  padding: 20px;/*espacio entre los elementos*/
 }
 
 /*main fromulario*/
 .main-from {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  flex: 1;/*centra los elementos horizontal y vertical*/
+  display: flex;/*sirve para mover los elementos*/
+  justify-content: center;/*sirve para certra los elementos y dejar espacios entre ellos*/
+  align-items: center;/*centra los items*/
+  padding: 20px;/*espacio entre los elemenos*/
   background: #f5f5f5;
 }
 
 /*fromulario*/
 form {
   background: white;
-  padding: 30px;
-  border-radius: 10px;
-  width: 350px;
+  padding: 30px;/*espacio entre los elemntoss*/
+  border-radius: 10px;/*redondea las esquinas*/
+  width: 350px;/*ancho del foemulario*/
 }
 
 label {
-  margin-top: 10px;
-  gap: 20px;
+  margin-top: 10px;/*espacio de la parte de arriba */
+  gap: 20px;/*espacio entre las secsiones*/
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
+  width: 100%;/*el ancho del input*/
+  padding: 10px;/*espacio etre los items*/
+  margin-top: 5px;/*espacio de arriba*/
 }
 
 /*boton de fromulario*/
 .boton-formula{
-  width: 100%;
-  padding: 12px;
-  margin-top: 20px;
+  width: 100%;/*ancho del boton*/
+  padding: 12px;/*esapacio entre los elementos*/
+  margin-top: 20px;/*espacio de arriba*/
   background: black;
   color: white;
 }
 .antor{
-  width: 100%;
-  padding: 12px;
-  margin-top: 20px;
+  width: 100%;/*tamaño del voton*/
+  padding: 12px;/*epacio entre los bones*/
+  margin-top: 20px;/**/
   background: black;
   color: white;
   display: flex;
-  text-decoration: none;
-  text-align: center;
-}
-/*modificacion de anchor*/
-.adepro{
-text-decoration: none;
-color: #f5f5f5;
+  text-decoration: none;/**/
+  text-align: center;/**/
 }
